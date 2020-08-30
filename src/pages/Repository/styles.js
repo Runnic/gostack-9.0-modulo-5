@@ -102,3 +102,39 @@ export const IssueList = styled.ul`
         }
     }
 `
+
+export const SelectStatus = styled.form`
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px 20px 10px;
+
+    label {
+        color: #7159c1;
+        font-weight: 600;
+        margin: 0 20px 0px 2px;
+    }
+`
+
+export const ButtonContainer = styled.div`
+    width: 100%;
+    height: 60px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        width: 70px;
+        height: 30px;
+        background: #7159c1;
+        border: none;
+        color: #fff;
+        border-radius: 20%;
+        margin: auto;
+        box-shadow: 1px 1px 5px #000;
+    }
+`
